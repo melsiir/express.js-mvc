@@ -1,0 +1,165 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "telebot",
+      "version": "1.0.0",
+      "description": "telegram boy",
+      "main": "server.js",
+      "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+      },
+      "author": "Mohammed Elsir",
+      "license": "ISC",
+      "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "telegraf": "^4.4.2"
+      },
+      "devDependencies": {
+        "nodemon": "^2.0.15"
+      }
+    },
+    "prefix": "/data/data/com.termux/files/home/learn/mvc"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/data/data/com.termux/files/home/.pnpm-store/v3",
+    "virtualStoreDir": "/data/data/com.termux/files/home/learn/mvc/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/data/data/com.termux/files/home/learn/mvc",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/jsonwebtoken/8.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "jsonwebtoken",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonwebtoken/8.5.1",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie-parser/1.4.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cookie-parser",
+      "rawSpec": "latest"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie-parser/1.4.6",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/dotenv/10.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "dotenv",
+      "rawSpec": "^10.0.0"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/10.0.0",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.17.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "^4.17.1"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.2",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jsonwebtoken/8.5.1",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie-parser/1.4.6",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "found_in_store"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/10.0.0",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.2",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nodemon/2.0.15",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nodemon",
+      "rawSpec": "^2.0.15"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/telegraf/4.5.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "telegraf",
+      "rawSpec": "^4.4.2"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/telegraf/4.5.2",
+    "requester": "/data/data/com.termux/files/home/learn/mvc",
+    "status": "resolved"
+  },
+  "20 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "size": 57299,
+    "status": "started"
+  },
+  "21 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/telegraf/4.5.2",
+    "size": 84417,
+    "status": "started"
+  },
+  "22 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "becryprt.js is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/becryprt.js"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "becryprt.js",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/becryprt.js: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/becryprt.js: Not Found - 404\n    at RetryOperation._fn (/data/data/com.termux/files/usr/lib/node_modules/pnpm/dist/pnpm.cjs:85377:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
